@@ -1,0 +1,7 @@
+AddType application/octet-stream csv
+AuthName "Simpla CMS"
+AuthType Basic
+#AuthUserFile /var/www/test/data/www/test1.compuzilla.ru/simpla/.passwd
+#AuthUserFile /home/simpla/web/simpla.compuzilla.ru/public_html/simpla/.passwd
+AuthUserFile /Applications/MAMP/htdocs/simpla/simpla/.passwd
+require valid-user
